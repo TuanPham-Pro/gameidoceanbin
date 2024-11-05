@@ -1,0 +1,120 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    align-content: center;
+    min-height: 100vh;
+}
+.title{
+    font-size:3rem;
+    color: rgb(74, 74, 74);
+    text-transform: uppercase;
+    text-align: center;
+}
+.animation{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.description{
+    color: #6D6D6D;
+    text-align:center;
+    margin: 0;
+    padding: 0 30px;
+    font-size: 1.5rem;
+}
+.flyer{
+    width: 100%;
+    border-radius:15px;
+}
+.btn-primary{
+    color:white;
+    background: #059CDD;
+    padding:5px 30px;
+    border-radius:5px;
+    margin:10px 0;
+    font-size:2rem;
+    text-align: center;
+    cursor: pointer;
+
+   font-weight: bold;
+   
+   
+    
+  }
+
+
+  .btn-primarycheck{
+    color:white;
+    background: #059CDD;
+    padding:5px 30px;
+    border-radius:5px;
+    margin:10px 0;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    border: none;
+   
+   
+    
+  }
+.flyer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.flyer-item-container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.flyer-header{
+    max-width: 300px;
+    border-radius:15px 15px 0 0;
+}
+.flyer-text{
+    max-width: 300px;
+    height: 100px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    font-weight: bold;
+    color: #6D6D6D;
+}
+.flyer-body{
+    max-width: 300px;
+    border-radius:0 0 15px 15px;
+}
+.flyer-yellow{
+    background: #FFF7B1;
+}
+.flyer-blue{
+    background:#D2DFF3;
+}
+.flyer-brown{
+    background:#DAC7BE;
+}
+.flyer-green{
+    background:#D0E2D1;
+}
+.flyer-grey{
+    background:#D5DFE4;
+}
+@media (max-width: 750px){
+    .animation{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-right: 50px;
+    }
+}
+

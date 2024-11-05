@@ -1,0 +1,168 @@
+.content-center{
+  
+    margin:0 auto;
+    justify-content:center;
+    align-self:center;
+    align-items:center;
+}
+@media (max-width: 750px){
+    .content-center{
+        display: flex;
+        flex-direction: column;
+        margin:0 auto;
+        justify-content:center;
+        align-self:center;
+        align-items:center;
+    }
+    .sidebar{
+        max-width:600px;
+    }
+    .card{
+        width: 100%;
+        max-width: 100px;
+        margin:10px;
+        box-shadow: 4px 6px 5px 0px rgba(168,168,168,1);
+        float: left;
+        position: relative;
+        top: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 15px;
+        /* Smoothing out hover using css3 transitions, if not, the pressed button effect looks a bit hard */
+        transition: all 0.2s ease;
+    
+        /* Size */
+        line-height: 45px;
+        
+        font-size: 120%;
+    
+        /* Colors */
+        background: #f7f7f7;
+        box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+        color: #888;
+        
+    }
+    .card:hover{
+        box-shadow: 0 10px #000;    
+    
+    }
+    .card:active{
+        top: 5px;
+      box-shadow: none;
+    }
+}
+.sidebar{
+    padding-top: 50px;
+    max-width:300px;
+    margin: 0 auto;
+}
+.card-container{    padding-top: 90px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.card{
+    width: 100%;
+    max-width: 300px;
+    margin:10px;
+    box-shadow: 4px 6px 5px 0px rgba(168,168,168,1);
+    float: left;
+    position: relative;
+    top: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    transition: all 0.2s ease;
+    line-height: 45px;
+    font-size: 120%;
+    background: #f7f7f7;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+    color: #888;
+    
+}
+.card:hover{
+    box-shadow: 0 10px #000;    
+}
+.card:active{
+    top: 5px;
+    box-shadow: none;
+}
+.result-container{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+.result-content{
+    display: flex;
+    margin: 25px 0;;
+}
+
+.result-image{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-right:30px;
+}
+.animation-result{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-right:30px;
+}
+.result-counters{
+ 
+    display: flex;
+    flex-direction: column;
+}
+.counter{
+    color: #ffffff;
+    width: 350px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size:1.5rem;
+    padding:10px 10px;
+}
+.correct-counter{
+    background: #72DA7D;
+}
+.wrong-counter{
+    background: #DA7272;
+}
+.result-text{
+    padding-top: 40px;
+    font-size:1.2rem;
+    color:#DA7272;
+    font-weight: bold;
+    text-align: center;
+}
+.red{
+    color:#DA7272;
+}
+.green{
+    color:#007b0c;
+}
+
+@media (max-width: 750px){
+    .result-content{
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0;
+        justify-content:center;
+        align-items: center;
+        align-content: center;
+    }
+    .result-image{
+        max-width: 300px;
+        margin: 0 auto;
+        margin-right:30px;
+        padding:10px;
+    }
+    .animation-result{
+        max-width: 400px;
+        margin:0 auto;
+    }
+}
